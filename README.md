@@ -9,8 +9,8 @@
 
 ## Features
 
--Database integration using SQlite3
--Back-end created using Django & Python
+- Database integration using SQlite3
+- Back-end created using Django & Python
 
 ## Documentation
 
@@ -19,6 +19,6 @@
 Reach out to me at one of the following places!
 
 - LinkedIn at <a href="https://www.linkedin.com/in/pagezacharyc/" target="_blank">Zachary Page</a>
-- Email at <a href='pagezacharyc@gmail.com' target="_blank">pagezacharyc@gmail</a>
+- Email at <a href='mailto:pagezacharyc@gmail.com' target="_blank">pagezacharyc@gmail</a>
 
 ---
