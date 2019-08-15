@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <div id="header" class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                {% if food_items %}
+                    <h2>Food(s)</h2>
+                        <ul>
+                            {% for food in food_items %}
+                                <li><a href="/menu/food/{{ food.id }}/">{{ food.item_name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+        <div id="header" class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    {% if beverage_items %}
+                        <h2>Beverage(s)</h2>
+                            <ul>
+                                {% for beverage in beverage_items %}
+                                    <li><a href="/menu/beverage/{{ beverage.id }}/">{{ beverage.item_name }}</a></li>
+                                {% endfor %}
+                            </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+
+{% endblock %}

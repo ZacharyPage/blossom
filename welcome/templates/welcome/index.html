@@ -1,0 +1,24 @@
+<html>
+    <head>
+        {% extends 'base.html' %}
+        {% block head %}
+        <title>Welcome Page</title>
+        {% endblock %}
+    </head>
+    <body>
+        {% block body %}
+                <div class="container">
+                    <h3>click here to login</h3>
+                    {#    Login Button      #}
+                    <a href="/user/login" class="btn btn-lg btn-danger">Login</a>
+
+                    <h3>click here to go to the menu</h3>
+                    {#    Menu Button      #}
+                    <a href="/menu" class="btn btn-lg btn-warning">Menu</a>
+                    <h3>click here to register</h3>
+                    {#    Menu Button      #}
+                    <a href="/register" class="btn btn-lg btn-success">Register</a>
+                </div>
+        {% endblock %}
+    </body>
+</html>
