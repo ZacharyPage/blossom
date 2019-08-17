@@ -10,6 +10,7 @@
 ## Features
 
 - Database integration using SQlite3
+- Front-End Integration using HTML, Javascript, and CSS
 - Back-end created using Django & Python
 
 ## Examples
