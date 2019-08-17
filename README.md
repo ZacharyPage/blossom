@@ -14,7 +14,14 @@
 
 ## Examples
 
-![]( images/BlossomLogo.png)
+- **Logo for Website**
+![]( images/blossomlogo.jpg)
+- **Landing Page**
+![]( images/Blossom2.png)
+- **Register Interface**
+![]( images/Blossom3.png)
+- **Administration Database**
+![]( images/Blossom.png)
 
 ## Support
 
