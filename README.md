@@ -4,7 +4,7 @@
 
 
 - [Features](#features)
-- [Documentation](#documentation)
+- [Examples](#examples)
 - [Support](#support)
 
 ## Features
@@ -12,7 +12,7 @@
 - Database integration using SQlite3
 - Back-end created using Django & Python
 
-## Documentation
+## Examples
 
 ## Support
 
